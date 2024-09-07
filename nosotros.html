@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <style>
+        /* Estilo para el contenedor del menú */
+        .menu {
+            position: relative;
+            display: inline-block;
+        }
+    
+        /* Estilo para los enlaces ocultos */
+        .menu-links {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+    
+        /* Estilo de los links dentro del menú */
+        .menu-links a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+    
+        /* Efecto hover */
+        .menu-links a:hover {
+            background-color: #f1f1f1;
+        }
+    
+        /* Mostrar el menú cuando el usuario pase el ratón sobre él */
+        .menu:hover .menu-links {
+            display: block;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <div class="menu">
+            <a href="index.html">STARNETWORKS</a>
+            <div class="menu-links">
+                <a href="clientes.html">Enlace 1</a>
+                <a href="secciones_legales.html">Enlace 2</a>
+                <a href="servicios.html">Enlace 3</a>
+            </div>
+        </div>
+
+    </header>
+</body>
+
+</html>
